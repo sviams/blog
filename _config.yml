@@ -18,7 +18,7 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-theme: texture
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
