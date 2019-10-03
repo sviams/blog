@@ -1,9 +1,9 @@
 title: /dev/random
 email: sviams@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   My random thoughts on good ways to generate business value with software
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog"
+url: "https://sviams.github.io"
 twitter_username: anders_jandel
 github_username:  sviams
 lsi: false
