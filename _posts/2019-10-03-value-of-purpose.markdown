@@ -11,7 +11,7 @@ And by purpose I don't mean *make a lot of money*. A well defined purpose
 * can be traced from the organizational down to the individual level
 
 ## `Alignment` => `Autonomy`
-Only using a clear and common purpose as a unifier can an organization achieve business alignment.
+Only by using a clear and common purpose as a unifier can an organization achieve business alignment.
 Alignment lets your organzation
 * subdivide without major risk of counter productivity
 * focus energy on the business

@@ -21,11 +21,15 @@ remote_theme: thelehhman/texture
 plugins:
   - jekyll-feed
 
+sass:
+  sass_dir: _sass
+
 texture:
   title: Anders Jändel
   tagline: Coding Architect
   style: black
   analytics_id: 'UA-149342947-1'
+  showNav: true
   social_links:
     twitter: anders_jandel
     github: sviams
