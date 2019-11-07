@@ -31,10 +31,12 @@ of shouldering such a responsibility and thus a very high level of competence on
 
 ### Lewis and Lewis
 Way back in 2014, Martin Fowler and James Lewis wrote an [excellent article](https://martinfowler.com/articles/microservices.html),
-giving definition to the new idea of microservices, and on the topic of division they identify the importance of having
+giving definition to the somewhat new idea of microservices, and on the topic of division they identify the importance of having
 cross-functional teams organized around business capabilities, because that's what you're going to get out in the end. Excellent
 advice of course, but it doesn't fully answer the question of how many teams you should have, and how many services each team should be responsible for.
 
 
 ### Bounded Context
-[Domain driven design](https://en.wikipedia.org/wiki/Domain-driven_design) to the rescue!
+[Domain driven design](https://en.wikipedia.org/wiki/Domain-driven_design) to the rescue! In DDD, the concept of a Bounded Context
+describes a collection of domain concepts that are relevant to each other but typically represented to the outside world through a
+limited interface. Not very helpful I guess, 
