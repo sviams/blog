@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The True Cost of Integration"
-categories: architecture integration enterprise
+title:  "The True Cost of Software"
+categories: [architecture, integration, enterprise]
 ---
 ## Introduction
 Sometimes, things fall into place in weird ways. On one hand, I'm currently giving a presentation about microservice design
@@ -58,27 +58,40 @@ your business doing what everyone else does, but it's not a healthy option down 
 
 
 ## Time To Market, Cost of Change and Total Cost of Ownership
-After a slight detour establishing what we know about what we need and why, let's get back to the questions at hand. Also, let's sort out what Elon Musk has to do with all of this.
+After a slight detour establishing what we know about what we need and why, let's get back to the questions at hand (feasibility, cost, time).
 
-### Functions of Time
+### Feasibility
+This one should be simple, the answer is yes. If it isn't, the wrong people are answering it. It should never be acceptable for software to impede or hinder business.
+It might be expensive and take a lot of time for good reasons (self-driving cars are a hard problem to solve) or for bad reasons (insufficient competence), but never impossible.
+The trick though, is to look beyond the initial challenge and try to take the total cost of ownership into perspective. Solving a software problem once is
+usually not very hard, but solving it in such a way that the business logic is easy to adjust as requirements change over time is.
+
+### Cost
+If keeping the software in line with business requirements over time is the goal, then that's the cost you should measure, not the cost of
+producing software that is sufficient at a specific point in time. The cost of re-writing a solution due to insufficient architectural flexibility
+can be massive. The reasons can be many, but usually start in a solution that is either overly complex, not scalable enough or both. Add to this that
+the person who wrote it no longer works for the company and you've got a recipe for business disaster. Unfortunately, this isn't a problem easily
+solved by simply remembering this the next time around, because the solution itself is a tightrope walk that requires a lot of experience to get right.
+Stray too far in the other direction and you may find yourself with a ballooning solution that never really gets to market.
+
+### Time
+If business value is in some way established, time will to some degree be a factor although sometimes it's more obvious than other times. Again though,
+time to first delivery is important, but it's the compound time to market over all deliveries that must be estimated. This should be one of the deciding
+factors between DIY and COTS when you're right on the line shown above. How sensitive will you be to time to market for changing requirements in the future?
+Disregarding the fact that you may or may not get exactly _what_ you need, you also may not be able to influence _when_ you get it.
 
 
+## Making things go fast
+So far, so obvious, but what about Conway ad Musk? Conway's law states:
+> "organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations."
+> -- Mel Conway, 1967
 
-Everyday Astronaut with Elon Musk
-https://www.youtube.com/watch?v=cIQ36Kt7UVg&t=60
-
-If the design is taking too long, the design is wrong. - Elon Musk
-
-Avoid subsystem optimization
-
-Everyone has to understand, broadly speaking, how all the systems in the vehicle work.
-
-Product errors reflect org errors
-
-Departments == interfaces
-
-Without questioning constraints from interfaces
-
-Question constraints
-
-Engineers have no problem optimizing things that shouldn't exist
+From this we learn the value of organizing our resources around business capabilities rather than functions or roles in order to maximize business value efficiency. Awesome.
+What is not so clearly spelled out is the cost of the inevitable interfaces between these designs or artifacts, and here's where Mr. Musk comes in.
+In an interview with Everyday Astronaut [![Open in YouTube](https://img.youtube.com/vi/cIQ36Kt7UVg/0.jpg)](https://www.youtube.com/watch?v=cIQ36Kt7UVg&t=60), Elon is asked how it's possible for SpaceX to have gone
+from a complete redesign to a 9 meter diameter, 50 meter tall, almost flight ready spaceship prototype in less than a year. Elon responds that he's
+picked up some experience on moving fast over the years (with my comments after);
+* "If a design is taking too long, the design is wrong" - accept that you can't design the perfect solution ahead of time or accept horrendous cost and time to market
+* "Product errors reflect organizational errors" - problems often occur in the interfaces between systems; interfaces are constraints
+* "Everyone is a lead engineer and has to broadly understand how all parts work together" - and must question the constraints from systems they
+interface with instead of suboptimizing on their own side
