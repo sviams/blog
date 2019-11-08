@@ -25,7 +25,7 @@ this is set in stone. Let's instead assume that there is a degree of probability
 to system. On a tangential note, this is of course one of the reasons not to buy all-in-one solutions, as changing requirements for one part over
 time may force you to replace another part that was just fine (smart TV's come to mind).
 
-Another likely fact to accept is that we usually don't know exactly what it is that we need up front. Only after actually applying the solution
+Another likely fact to accept is that we usually don't know exactly what it is that we need up front. Only after actually applying a solution
 can we fully comprehend not only if the solution solves the need in a good way, but also whether we had actually understood the need correctly in
 the first place. This obviously makes the case for an iterative approach to problem solving, but that's not what this post is about.
 
@@ -82,16 +82,24 @@ Disregarding the fact that you may or may not get exactly _what_ you need, you a
 
 
 ## Making things go fast
-So far, so obvious, but what about Conway ad Musk? Conway's law states:
+So far, so obvious, but what about Conway and Musk? Conway's law states:
 > "organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations."
 > -- Mel Conway, 1967
 
 From this we learn the value of organizing our resources around business capabilities rather than functions or roles in order to maximize business value efficiency. Awesome.
 What is not so clearly spelled out is the cost of the inevitable interfaces between these designs or artifacts, and here's where Mr. Musk comes in.
-In an interview with Everyday Astronaut [![Open in YouTube](https://img.youtube.com/vi/cIQ36Kt7UVg/0.jpg)](https://www.youtube.com/watch?v=cIQ36Kt7UVg&t=60), Elon is asked how it's possible for SpaceX to have gone
+In an interview with Everyday Astronaut; [![Open in YouTube](https://img.youtube.com/vi/cIQ36Kt7UVg/0.jpg)](https://www.youtube.com/watch?v=cIQ36Kt7UVg&t=60)
+
+Elon is asked how it's possible for SpaceX to have gone
 from a complete redesign to a 9 meter diameter, 50 meter tall, almost flight ready spaceship prototype in less than a year. Elon responds that he's
 picked up some experience on moving fast over the years (with my comments after);
 * "If a design is taking too long, the design is wrong" - accept that you can't design the perfect solution ahead of time or accept horrendous cost and time to market
 * "Product errors reflect organizational errors" - problems often occur in the interfaces between systems; interfaces are constraints
 * "Everyone is a lead engineer and has to broadly understand how all parts work together" - and must question the constraints from systems they
 interface with instead of suboptimizing on their own side
+
+How does that relate to the question of doing yourself or bying off the shelf? From an (enterprise) architectural point of view, both options add the same
+complexity, expressed in the interfaces they add to the large picture. Extrapolating from Mr. Musk, a significant cost over time will be associated with these
+interfaces, either in plain errors made or simply from the maintenance cost associated with them. Depending on what timescale we're looking at, it will likely turn out
+that the up front capital expenditure of acquiring version one of that functionality is outweighed by the operational expenditure from maintaining it, compounded
+by 
