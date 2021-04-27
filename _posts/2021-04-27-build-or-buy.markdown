@@ -2,6 +2,7 @@
 layout: post
 title:  "Build or buy?"
 categories: [architecture, enterprise, cots, value]
+date:   2021-04-27 15:36:00 +0200
 ---
 ## Let's start a business
 Sometimes, work touches on questions of an "enterprise architecture" nature. Every now and again strategic decisions need to be made about business applications, whether to build them yourself or source externally, and whether to do that in parts or as a whole. 
