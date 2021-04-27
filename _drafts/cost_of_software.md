@@ -17,37 +17,28 @@ do that in parts or as a whole. Annoyingly (to me), the framework within which t
 And finally, SpaceX built a giant spaceship. More on that later though.
 
 ## A better perspective
-What annoys me is that the risks associated with this short sighted perspective are monumental. I'll just go ahead and break them down quickly:
+What annoys me is that the risks associated with this perspective are monumental. Before adressing the questions mentioned above, I need to talk about the parameters feeding into them:
 
 ### The problem with "what"
 Well, what is 'it'? Right from the start, there's often an assumption that we know in perfect detail what the problem we're solving is, and that
 this is set in stone. Let's instead assume that there is a degree of probability for requirements to change over time, that will vary from system
-to system. On a tangential note, this is of course one of the reasons not to buy all-in-one solutions, as changing requirements for one part over
+to system. On a tangential note, this can be an argument for avoiding all-in-one solutions, as changing requirements for one part over
 time may force you to replace another part that was just fine (smart TV's come to mind).
 
-Another likely fact to accept is that we usually don't know exactly what it is that we need up front. Only after actually applying a solution
+A common situation is that we don't know exactly what it is that we need up front. Only after applying a solution
 can we fully comprehend not only if the solution solves the need in a good way, but also whether we had actually understood the need correctly in
-the first place. This obviously makes the case for an iterative approach to problem solving, but that's not what this post is about.
+the first place. This makes a compelling case for an iterative approach to problem solving, but that's not what this post is about.
 
-To summarize, I'd like to propose that we accept that instead of trying to understand everything beforehand, we accept that our understanding by
-necessity will mature over time. In this perspective, quantifying capex or deadlines is obviously a futile effort.
-If this sounds like an undeterministic and potentially expensive approach to you, keep in mind that it only is so in comparison to a version of
-reality that most likely is not true.
+To summarize, I'd like to propose that we accept that instead of trying to understand everything beforehand, we accept that our understanding will mature over time. From this perspective, quantifying capex or deadlines is a futile effort.
+If this sounds like an undeterministic and potentially expensive approach, keep in mind that it only is so in comparison to a theoretical plan, and [plans seldom survive contact with reality](https://en.wikipedia.org/wiki/Helmuth_von_Moltke_the_Elder#:~:text=His%20thesis%20can%20be%20summed,is%20a%20system%20of%20expedients%22.) as noted by von Moltke.
 
 ### The problem with "why"
-Arguably, the first question to ask should be "Why do we need this particular piece of functionality?". Assuming the answer to this question would bear
-scrutiny in front of the owners of your business, the next question might be "How much so?" Business value is of course not binary, but much like
-our certainty of exactly what we need in order to satisfy the "why", a sliding scale from tangential to the core business to absolutely crucial.
-Imagine for example that you're an insurance company. In one corner you have your ERP needs. Those are very important, but only in a supporting
-role to the actual business. In the other corner you have the very things that make or break your business. The point I'm trying to make here is that depending on
-where you are on that scale in a given situation, you should weigh the importance of knowing exactly what you need and how likely that is to change
-accordingly. Let's plot these two axes on a graph and see if that helps clarify anything.
+Arguably, the first question to ask should be "Why do we need this particular piece of functionality?". Assuming the answer to this question would bear scrutiny in front of the owners of your business, the next question might be "How much so?" Business value is not binary, but much like our certainty of exactly what we need in order to satisfy the "why", a sliding scale from tangential to the core business to absolutely crucial.
+Imagine for example that you're an insurance company. On one end of the scale you have your ERP needs. Those are very important, but only in a supporting role to the actual business. On the other end you have the very things that make or break your business, such as how you assess risk and determine pricing. 
+Another dimension to bring into account is the likeliness of your requirements to change over time, or perhaps how high the rate of innovation is.Let's plot these two axes on a graph:
 ![Should you DIY?](/blog/images/should_you_diy.png)
 * Bottom Left - With low impact on business value and low innovation pace, you should obviously buy off the shelf. Think Office.
-* Top Left - With a very fluid requirement situation, i.e. innovation pace is high but impact on core business is tangential, odds are you're better
-off sourcing the solution. You won't have much influence on the direction it goes over time, but that's most likely OK. An example might be the ERP needs mentioned earlier.
-Many ERP suppliers compete to raise efficiency in their offerings by some fraction, and while efficiency is important, this is not where you compete. Then again,
-building that bespoke plugin or additional feature might still make sense from a business point of view, so it could go either way.
+* Top Left - With a very fluid requirement situation, i.e. innovation pace is high but impact on core business is tangential, odds are you're better off sourcing the solution. You won't have much influence on the direction it goes over time, but that's most likely OK. An example might be the ERP needs mentioned earlier. Many ERP suppliers compete to raise efficiency in their offerings by some fraction, and while efficiency is important, this is not where you compete. Then again, building that bespoke plugin or additional feature might still make sense from a business point of view, so it could go either way.
 * Bottom Right - Low rate of change, but high impact on your business. Just like top left, this could go either way. If a commercial option is
 available that ticks ALL your boxes, it's probably a good idea to go for it, but as soon as any potential for evolution comes into play, you're
 likely better of in a situation where you can have a direct impact without relying on a 3rd party. Say for example the backup solution for your
