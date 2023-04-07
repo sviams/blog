@@ -29,7 +29,7 @@ Likewise, the argument can be made that it's a good strategy to split your syste
 
 ### Plotting it on a graph
 Since we've now established two different axes of importance, "business value" and "innovation pace", let's plot them in a nice graph and see if we can fit the four different systems we discussed earlier.
-![Should you DIY?](/blog/images/should_you_diy.png)
+![Should you DIY?](/images/should_you_diy.png)
 The gradient is meant to convey that the decision is easy in the bottom left and top right corners, and the squiggly line represents the fact that whenever you find yourself close to the dividing line between COTS and DIY, other aspects of your organization may tip the scales in some direction.
 * Bottom Left - With low impact on business value and low innovation pace, we find our office suite. Unless making office suites is your core business (in which case it wouldn't be in the bottom left), it's obvious we should buy this off the shelf.
 * Top Left - With a very fluid requirement situation, i.e. innovation pace is high but impact on core business is tangential, odds are you're better off sourcing the solution. You won't have much influence on the direction it goes over time, but that's most likely OK. An example might be the ERP needs mentioned earlier. Many ERP suppliers compete to raise efficiency in their offerings by some fraction, and while efficiency is important, this is not where you compete. Then again, building that bespoke plugin or additional feature might still make sense from a business point of view, so it could go either way.
